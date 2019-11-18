@@ -6,9 +6,9 @@ echo "\n";
 
 $line = readline();
 
-if ($line <= $a) {
+if ($line < $a) {
 echo "Helaas, je mag nog niet beginnen met rijlessen";
-} else if ($line > $a){
+} else if ($line >= $a){
 echo "Je mag beginnen met rijlessen!";
 }
 ?>
